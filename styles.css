@@ -1,6 +1,11 @@
-.titulo_homepage {
-    text-align: center;
-}
 .barra-navegação {
     text-align: right;
+}
+
+.titulo-homepage {
+    text-align: center;
+}
+
+.titulo-about {
+    text-align center;
 }
