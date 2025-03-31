@@ -1,16 +1,27 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap');
+
+/* Apply Montserrat to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Apply Inter to body text */
+body, p, li {
+    font-family: 'Inter', sans-serif;
+}
+
 * 
 {
   margin: 0;
   padding: 0;
 }
 
-
 li 
 {
   display: inline;
   margin-left: 10px;
 }
-
 
 .not_ready 
 {
@@ -22,80 +33,42 @@ li
   */
 }
 
-header {
-    text-align: center; 
-    margin-top: 60px; 
-    margin-bottom: 20px; 
-}
-
-/* Formatção H1 */
-header h1 {
-    font-size: 2.5rem; 
-    font-weight: bold; 
-    margin: 0; /* Remove margem padrão do browser, facilita */
-}
-
-nav 
-{
-  border-width: 3px;
-  border-style: solid;
-  border-radius: 20px;
-  
-  display: inline-block;
-  padding-right: 10px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
 /* Formatação secção das categorias */
-#work {
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px 0;
+figure 
+{
+  width: 30%;
+  
+  float: left;
+  
+  margin-top: 1%;
+  margin-left: 1%;
 }
 
-.image-row {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    gap: 20px; 
-}
-/*Formatação da flex-box */
-.image-row figure {
-    flex: 1; /* Espaço para cada imagem, para crescer e diminuir igual */
-    text-align: center; 
-    margin: 0; 
+figure img 
+{
+  background-color: lightblue;
+  width: 100%;
 }
 
-/* Formatação das imagens */
-.image-row img {
-    width: 100%;
-    height: auto; 
-    max-width: none; 
+figcaption 
+{
+  text-align: center;
 }
 
-/* Formatação da bio */
-#bio {
-    text-align: center; 
-    margin-top: 40px; 
-    padding: 20px; 
-}
-
-#bio h2 {
+h2
+{
     font-size: 2rem;
     margin-bottom: 10px; 
 }
 
-#bio p {
+p
+{
     font-size: 1.2rem; 
     line-height: 1.5; 
 }
 
-footer {
+footer
+{
     text-align: center; 
     padding: 10px; 
     background-color: #f8f8f8; 
