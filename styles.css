@@ -1,76 +1,94 @@
-/* Import Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap');
 
-/* Apply Montserrat to headings */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* Apply Inter to body text */
 body, p, li {
     font-family: 'Inter', sans-serif;
 }
 
-* 
-{
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-li 
+header
 {
-  display: inline;
-  margin-left: 10px;
+    display: flex; 
+    align-items: center; 
+    padding: 15px;
 }
 
-.not_ready 
+#titulo
 {
-  /*
-  display: none;
-  */
-  /*
-  visibility: hidden;
-  */
+    font-size: 1.8rem; 
+    margin: 0;
 }
+
+nav
+{
+    margin-left:auto;
+}
+
+ul
+{
+    list-style: none; 
+    display: flex; 
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    margin-left:10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 
 /* Formatação secção das categorias */
-figure 
-{
-  width: 30%;
-  
-  float: left;
-  
-  margin-top: 1%;
-  margin-left: 1%;
+figure {
+    width: 30%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
-figure img 
-{
-  background-color: lightblue;
-  width: 100%;
+figure img {
+    background-color: lightblue;
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
 }
 
-figcaption 
-{
-  text-align: center;
+figcaption {
+    text-align: center;
 }
 
-h2
-{
+h2 {
     font-size: 2rem;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
 
-p
-{
-    font-size: 1.2rem; 
-    line-height: 1.5; 
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
-footer
-{
-    text-align: center; 
-    padding: 10px; 
-    background-color: #f8f8f8; 
-    font-size: 1rem; 
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    figure {
+        width: 100%; /* Make figures full-width on small screens */
+    }
 }
