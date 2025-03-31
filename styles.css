@@ -70,7 +70,9 @@ figcaption {
 }
 
 #bio {
-    
+    float: center;
+    margin-top: 20px;
+    text-align: center;
 }
 
 h2 {
