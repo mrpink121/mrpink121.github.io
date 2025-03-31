@@ -73,24 +73,31 @@ nav
 
 /* Formatação das imagens */
 .image-row img {
-    width: 100%; /* Make images fill their container */
-    height: auto; /* Maintain aspect ratio */
-    max-width: none; /* Remove any max-width restrictions */
+    width: 100%;
+    height: auto; 
+    max-width: none; 
 }
 
 /* Formatação da bio */
 #bio {
-    text-align: center; /* Center-align the text */
-    margin-top: 40px; /* Add space above the bio section */
-    padding: 20px; /* Add padding inside the section */
+    text-align: center; 
+    margin-top: 40px; 
+    padding: 20px; 
 }
 
 #bio h2 {
-    font-size: 2rem; /* Adjust the font size for the heading */
-    margin-bottom: 10px; /* Add space below the heading */
+    font-size: 2rem;
+    margin-bottom: 10px; 
 }
 
 #bio p {
-    font-size: 1.2rem; /* Adjust the font size for the paragraph */
-    line-height: 1.5; /* Improve readability */
+    font-size: 1.2rem; 
+    line-height: 1.5; 
+}
+
+footer {
+    text-align: center; 
+    padding: 10px; 
+    background-color: #f8f8f8; 
+    font-size: 1rem; 
 }
