@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
-body, p, li {
+body {
     font-family: 'Inter', sans-serif;
 }
 
@@ -19,12 +19,6 @@ header
     display: flex; 
     align-items: center; 
     padding: 15px;
-}
-
-#titulo
-{
-    font-size: 1.8rem; 
-    margin: 0;
 }
 
 nav
@@ -53,7 +47,7 @@ a:hover {
 
 /* Formatação secção das categorias */
 figure {
-    width: 30%;
+    width: 32%;
     float: left;
     margin-top: 1%;
     margin-left: 1%;
@@ -65,12 +59,15 @@ figure img {
     height: auto; /* Maintain aspect ratio */
 }
 
+section {
+    clear: left;
+}
+
 figcaption {
     text-align: center;
 }
 
-#bio {
-    float: center;
+section h2 {
     margin-top: 20px;
     text-align: center;
 }
@@ -90,11 +87,4 @@ footer {
     padding: 10px;
     background-color: #f8f8f8;
     font-size: 1rem;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-    figure {
-        width: 100%; /* Make figures full-width on small screens */
-    }
 }
