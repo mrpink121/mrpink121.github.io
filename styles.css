@@ -1,0 +1,96 @@
+* 
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+li 
+{
+  display: inline;
+  margin-left: 10px;
+}
+
+
+.not_ready 
+{
+  /*
+  display: none;
+  */
+  /*
+  visibility: hidden;
+  */
+}
+
+header {
+    text-align: center; 
+    margin-top: 60px; 
+    margin-bottom: 20px; 
+}
+
+/* Formatção H1 */
+header h1 {
+    font-size: 2.5rem; 
+    font-weight: bold; 
+    margin: 0; /* Remove margem padrão do browser, facilita */
+}
+
+nav 
+{
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 20px;
+  
+  display: inline-block;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Formatação secção das categorias */
+#work {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    gap: 20px; 
+}
+/*Formatação da flex-box */
+.image-row figure {
+    flex: 1; /* Espaço para cada imagem, para crescer e diminuir igual */
+    text-align: center; 
+    margin: 0; 
+}
+
+/* Formatação das imagens */
+.image-row img {
+    width: 100%; /* Make images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: none; /* Remove any max-width restrictions */
+}
+
+/* Formatação da bio */
+#bio {
+    text-align: center; /* Center-align the text */
+    margin-top: 40px; /* Add space above the bio section */
+    padding: 20px; /* Add padding inside the section */
+}
+
+#bio h2 {
+    font-size: 2rem; /* Adjust the font size for the heading */
+    margin-bottom: 10px; /* Add space below the heading */
+}
+
+#bio p {
+    font-size: 1.2rem; /* Adjust the font size for the paragraph */
+    line-height: 1.5; /* Improve readability */
+}
