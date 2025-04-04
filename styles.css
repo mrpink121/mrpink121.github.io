@@ -59,12 +59,28 @@ figure img {
     height: auto; /* Maintain aspect ratio */
 }
 
-section {
-    clear: left;
-}
+
 
 figcaption {
-    text-align: center;
+    width: 32%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.image-container figure {
+    flex: 0 0 calc(33.33% - 10px); /* Ensure each figure takes up 1/3 of the container width */
+    scroll-snap-align: center; /* Snap each figure to the center when scrolling */
+    margin: 0; /* Remove default margin */
+}
+
+figure img {
+    width: 100%; /* Make the image fill the figure */
+    height: auto; /* Maintain aspect ratio */
+}
+
+section {
+    clear: left;
 }
 
 section h2 {
@@ -94,4 +110,29 @@ footer {
     padding: 10px;
     background-color: #f8f8f8;
     font-size: 1rem;
+}
+
+/*Digital Paintings Page */
+
+.image-container {
+    display: flex; /* Arrange the figures horizontally */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    gap: 10px; /* Add spacing between images */
+    padding: 10px; /* Add padding inside the container */
+}
+
+.image-container figure {
+    background-color: black;
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.digital-paintings {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
+}
+
+.digital-paintings-footer {
+    background-color: black; /* Set the background color to black */
+    color: white; /* Set the text color to white */
 }
