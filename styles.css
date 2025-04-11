@@ -92,6 +92,8 @@ figcaption {
     text-align: center;
     font-weight: 600;
     margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 2.5rem;
 }
 
 #about-me {
@@ -103,6 +105,12 @@ section h2 {
     margin-top: 20px;
     font-size: 2rem;
     margin-bottom: 10px;
+}
+
+#botão {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
 }
 
 footer {
