@@ -108,9 +108,13 @@ section h2 {
 }
 
 #botão {
-    display: flex; /* Enable Flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    
+  width: 150px;
+  height: 150px;
+  
+  position:fixed;
+  right: 30px;
+  bottom: 10px;
 }
 
 footer {
