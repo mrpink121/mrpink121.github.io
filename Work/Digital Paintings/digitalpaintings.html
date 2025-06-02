@@ -6,52 +6,50 @@
     <title>João Amador's Portfolio</title>
     <link rel="stylesheet" href="../../styles.css">
 </head>
- <body>
+<body>
     <header>
         <h1>
-            <a  href="../../index.html">João Amador's Portfolio</a>
+            <a href="../../index.html">João Amador's Portfolio</a>
         </h1>
-        <nav>
-            <!--Preciso de colocar um botão copy, ou hover no email -->
-            <ul>
-                <li><a href="mailto:amador.joao@outlook.com">amador.joao@outlook.com</a></li>
-            </ul>
-        </nav>
+        <div id="email_container" onmouseover="showEmailButton()" onmouseout="hideEmailButton()">
+            <a id="email" class="styled-email" href="mailto:amador.joao@outlook.com">amador.joao@outlook.com</a>
+        </div>
     </header>
     <main id="top">
-                <figure>
-                    <img src="../../images/DigitalPaintings/cara.png" alt="Cara">
-                    <figcaption>Cara</figcaption>
-                </figure>
-                <figure>
-                    <img src="../../images/DigitalPaintings/autoretrato.png" alt="autoretrato">
-                    <figcaption>Autoretrato</figcaption>
-                </figure>
-                <figure>
-                    <img src="../../images/DigitalPaintings/mel.png" alt="Mel">
-                    <figcaption>Mel</figcaption>
-                </figure>     
-                <figure>
-                    <img src="../../images/DigitalPaintings/sapo.png" alt="Sapo">
-                    <figcaption>Sapo</figcaption>
-                </figure>     
-                <figure>
-                    <img src="../../images/DigitalPaintings/praia.png" alt="Praia">
-                    <figcaption>Praia</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="../../images/DigitalPaintings/tree.png" alt="Sombreiro">
-                    <figcaption>Sombreiro</figcaption>
-                </figure> 
-                <figure id="botão">
-                    <a href="#top">
-                    <img src="../../Images/botão.png" alt="Nature Photographs">
-                    </a>
-                </figure>    
-        </main>
+        <figure>
+            <img src="../../images/DigitalPaintings/cara.png" alt="Cara">
+            <figcaption>Cara</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/DigitalPaintings/autoretrato.png" alt="autoretrato">
+            <figcaption>Autoretrato</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/DigitalPaintings/mel.png" alt="Mel">
+            <figcaption>Mel</figcaption>
+        </figure>     
+        <figure>
+            <img src="../../images/DigitalPaintings/sapo.png" alt="Sapo">
+            <figcaption>Sapo</figcaption>
+        </figure>     
+        <figure>
+            <img src="../../images/DigitalPaintings/praia.png" alt="Praia">
+            <figcaption>Praia</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/DigitalPaintings/tree.png" alt="Sombreiro">
+            <figcaption>Sombreiro</figcaption>
+        </figure> 
+        <figure id="botão">
+            <a href="#top">
+                <img src="../../Images/botão.png" alt="Nature Photographs">
+            </a>
+        </figure>    
+    </main>
     <footer>
         <p>&copy; 2025 My Website</p>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.11.5/lib/p5.js"></script>
+        <script src="../../script.js"></script>
     </footer>
 </body>
 </html>

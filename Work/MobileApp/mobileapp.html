@@ -6,53 +6,51 @@
     <title>João Amador's Portfolio</title>
     <link rel="stylesheet" href="../../styles.css">
 </head>
- <body>
+<body>
     <header>
-        <h1 >
-            <a  href="../../index.html">João Amador's Portfolio</a>
+        <h1>
+            <a href="../../index.html">João Amador's Portfolio</a>
         </h1>
-        <nav>
-            <!--Preciso de colocar um botão copy, ou hover no email -->
-            <ul>
-                <li><a href="mailto:amador.joao@outlook.com">amador.joao@outlook.com</a></li>
-            </ul>
-        </nav>
+        <div id="email_container" onmouseover="showEmailButton()" onmouseout="hideEmailButton()">
+            <a id="email" class="styled-email" href="mailto:amador.joao@outlook.com">amador.joao@outlook.com</a>
+        </div>
     </header>
     <main id="top">
         <!-- Preciso de escolher 3 imagens para as categorias -->
-                <figure>
-                    <img src="../../images/MobileApp/Homepage.png" alt="Homepage">
-                    <figcaption>Homepage</figcaption>
-                </figure>
-                <figure>
-                    <img src="../../images/MobileApp/VerdadeiroFalso.png" alt="VerdadeiroFalso">
-                    <figcaption>VerdadeiroFalso</figcaption>
-                </figure>
-                <figure>
-                    <img src="../../images/MobileApp/SopaLetras.png" alt="SopaLetras">
-                    <figcaption>Sopa Letras</figcaption>
-                </figure>     
-                <figure>
-                    <img src="../../images/MobileApp/Categorias.png" alt="Categorias">
-                    <figcaption>Categorias</figcaption>
-                </figure>     
-                <figure>
-                    <img src="../../images/MobileApp/Conquistas.png" alt="Conquistas">
-                    <figcaption>Conquistas</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="../../images/MobileApp/Definições.png" alt="Definições">
-                    <figcaption>Definições</figcaption>
-                </figure>
-                <figure id="botão">
-                    <a href="#top">
-                    <img src="../../Images/botão.png" alt="Nature Photographs">
-                    </a>
-                </figure>                        
+        <figure>
+            <img src="../../images/MobileApp/Homepage.png" alt="Homepage">
+            <figcaption>Homepage</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/MobileApp/VerdadeiroFalso.png" alt="VerdadeiroFalso">
+            <figcaption>VerdadeiroFalso</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/MobileApp/SopaLetras.png" alt="SopaLetras">
+            <figcaption>Sopa Letras</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/MobileApp/Categorias.png" alt="Categorias">
+            <figcaption>Categorias</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/MobileApp/Conquistas.png" alt="Conquistas">
+            <figcaption>Conquistas</figcaption>
+        </figure>
+        <figure>
+            <img src="../../images/MobileApp/Definições.png" alt="Definições">
+            <figcaption>Definições</figcaption>
+        </figure>
+        <figure id="botão">
+            <a href="#top">
+                <img src="../../Images/botão.png" alt="Nature Photographs">
+            </a>
+        </figure>
     </main>
     <footer>
         <p>&copy; 2025 My Website</p>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.11.5/lib/p5.js"></script>
+        <script src="../../script.js"></script>
     </footer>
 </body>
 </html>

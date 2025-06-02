@@ -6,40 +6,17 @@
     <title>João Amador's Portfolio</title>
     <link rel="stylesheet" href="../../styles.css">
 </head>
-
- <body>
-    
+<body>
     <header>
         <h1>
             <a href="../../index.html">João Amador's Portfolio</a>
         </h1>
-        <nav>
-            <!--Preciso de colocar um botão copy, ou hover no email -->
-            <ul>
-                <li><a href="mailto:amador.joao@outlook.com">amador.joao@outlook.com</a></li>
-            </ul>
-        </nav>
+        <div id="email_container" onmouseover="showEmailButton()" onmouseout="hideEmailButton()">
+            <a id="email" class="styled-email" href="mailto:amador.joao@outlook.com">amador.joao@outlook.com</a>
+        </div>
     </header>
-
     <main id="top">
         <figure>
-            <img src="../../images/Photographs/Agapanthus-praecox.png" alt="Agapanthus-praecox">
-            <figcaption>Agapanthus-praecox</figcaption>
-        </figure>
-        <figure>
-            <img src="../../images/Photographs/Bela-emília.png" alt="Bela-emília">
-            <figcaption>Bela-emília</figcaption>
-        </figure>     
-        <figure>
-            <img src="../../images/Photographs/Bugalho.png" alt="Bugalho">
-            <figcaption>Bugalho</figcaption>
-        </figure>     
-        <figure>
-            <img src="../../images/Photographs/Cotoneaster-pannosus.png" alt="Cotoneaster-pannosus">
-            <figcaption>Cotoneaster-pannosus</figcaption>
-        </figure>
-        <figure>
-            <img src="../../images/Photographs/Estevinha.png" alt="Estevinha">
             <figcaption>Estevinha</figcaption>
         </figure>
         <figure>
@@ -64,14 +41,14 @@
         </figure>
         <figure id="botão">
             <a href="#top">
-            <img src="../../Images/botão.png" alt="Nature Photographs">
+                <img src="../../Images/botão.png" alt="Nature Photographs">
             </a>
         </figure>  
     </main>
-
     <footer>
         <p>&copy; 2025 My Website</p>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.11.5/lib/p5.js"></script>
+        <script src="../../script.js"></script>
     </footer>
-
 </body>
 </html>

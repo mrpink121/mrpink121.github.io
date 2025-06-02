@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>João Amador's Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>João Amador's Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-    <header>
-        <h1>
-            <a href="index.html">João Amador's Portfolio</a>
-        </h1>
-        <nav>
-            <!--Preciso de colocar um botão copy, ou hover no email -->
-            <ul>
-                <li><a href="mailto:amador.joao@outlook.com">amador.joao@outlook.com</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <!-- Preciso de escolher 3 imagens para as categorias -->
-        <section id="gallery">
-            <figure>
-                <a href="Work/Photographs/photographs.html">
-                <img src="images/Photographs/Magnolia-grandiflora3.png" alt="Nature Photographs">
-                <figcaption>Nature Photographs</figcaption>
-                </a>
-            </figure>
-            <figure>
-                <a href="Work/Digital Paintings/digitalpaintings.html">
-                <img src="images/DigitalPaintings/digital-categoria.png" alt="Digital Paintings">
-                <figcaption>Digital Paintings</figcaption>
-                </a>
-            </figure>
-            <figure>
-                <a href="Work/MobileApp/mobileapp.html">
-                <img src="images/MobileApp/mobile-categoria.png" alt="Mobile App">
-                <figcaption>Mobile App</figcaption>
-                </a>
-            </figure>
-        </section>
-        
-        <section id="about-me">
-            <h2>About me</h2>
-            <p>Graphic design student keen on learning and exploring Photography, Digital Illustration and UX/IU Design.<br>
-                I believe in expressing yourself trough various channels of the visual arts.<br>
-                Currently honing my skills in Web Development (front end).</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 My Website</p>
-    </footer>
+  <header>
+    <h1>
+      <a id="home_link" href="index.html">João Amador's Portfolio</a>
+    </h1>
+    <div id="email_container" onmouseover="showEmailButton()" onmouseout="hideEmailButton()">
+      <a id="email" href="mailto:amador.joao@outlook.com">amador.joao@outlook.com</a>
+    </div>
+  </header>
 
+  <main>
+    <section id="gallery">
+      <figure>
+        <a href="Work/Photographs/photographs.html">
+          <img src="images/Photographs/Magnolia-grandiflora3.png" alt="Nature Photographs" />
+          <figcaption>Nature Photographs</figcaption>
+        </a>
+      </figure>
+      <figure>
+        <a href="Work/Digital Paintings/digitalpaintings.html">
+          <img src="images/DigitalPaintings/digital-categoria.png" alt="Digital Paintings" />
+          <figcaption>Digital Paintings</figcaption>
+        </a>
+      </figure>
+      <figure>
+        <a href="Work/MobileApp/mobileapp.html">
+          <img src="images/MobileApp/mobile-categoria.png" alt="Mobile App" />
+          <figcaption>Mobile App</figcaption>
+        </a>
+      </figure>
+    </section>
+
+    <section id="about-me">
+      <h2>About me</h2>
+      <p>
+        Graphic design student keen on learning and exploring Photography, Digital Illustration and UX/IU Design.<br>
+        I believe in expressing yourself through various channels of the visual arts.<br>
+        Currently honing my skills in Web Development (front end).
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.11.5/lib/p5.js"></script>
+    <script src="script.js"></script>
+  </footer>
 </body>
 </html>
