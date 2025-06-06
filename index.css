@@ -123,3 +123,8 @@ footer {
     font-size: 16px;
 }
 
+footer p {
+font-size: 15px;
+  text-align: right;
+  margin-right: 50px;
+}
