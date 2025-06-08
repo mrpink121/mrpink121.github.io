@@ -1,59 +1,96 @@
 <!-- Estudante : João Amador [3240655] Professor : Marco Heleno | Exercício de Avaliação: 'Portfolio' 
  | Ano Letivo 3º, 2024-2025 | 2º Semestre | Laboratório de Projeto II | ESAD CR. | Data de Avaliação : 08/06/2025-->
- 
+
 <!DOCTYPE html>
+<!-- Tipo de documento -->
+
 <html lang="en">
+<!-- Idioma principal da página -->
+
 <head>
     <meta charset="UTF-8">
+    <!-- Codificação de caracteres -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Escala inicial para responsividade -->
+
     <title>João Amador's Portfolio</title>
+    <!-- Título da página -->
+
     <link rel="stylesheet" href="../../styles.css">
+    <!-- Liga ficheiro CSS -->
 </head>
+
 <body>
     <header>
+        <!-- Cabeçalho da página. -->
+
         <h1>
             <a href="../../index.html">João Amador's Portfolio</a>
+            <!-- Link para página inicial -->
         </h1>
+
         <div id="email_container" onmouseover="showEmailButton()" onmouseout="hideEmailButton()">
+            <!-- JavaScript ao passar o rato por cima -->
             <a id="email" class="styled-email" href="mailto:amador.joao@outlook.com">amador.joao@outlook.com</a>
+            <!-- Link de email -->
         </div>
     </header>
+
     <main id="top">
-        <!-- Preciso de escolher 3 imagens para as categorias -->
+        <!-- Conteúdo principal da página. O id "top" é utilizado como âncora para o botão de voltar ao topo -->
+
         <figure>
             <img src="../../images/MobileApp/Homepage.png" alt="Homepage">
+            <!-- Imagem com descrição alternativa "Homepage" -->
             <figcaption>Homepage</figcaption>
+            <!-- Legenda da imagem -->
         </figure>
+
         <figure>
             <img src="../../images/MobileApp/VerdadeiroFalso.png" alt="VerdadeiroFalso">
             <figcaption>VerdadeiroFalso</figcaption>
         </figure>
+
         <figure>
             <img src="../../images/MobileApp/SopaLetras.png" alt="SopaLetras">
             <figcaption>Sopa Letras</figcaption>
         </figure>
+
         <figure>
             <img src="../../images/MobileApp/Categorias.png" alt="Categorias">
             <figcaption>Categorias</figcaption>
         </figure>
+
         <figure>
             <img src="../../images/MobileApp/Conquistas.png" alt="Conquistas">
             <figcaption>Conquistas</figcaption>
         </figure>
+
         <figure>
             <img src="../../images/MobileApp/Definições.png" alt="Definições">
             <figcaption>Definições</figcaption>
         </figure>
+
         <figure id="botão">
             <a href="#top">
+                <!-- Link para a âncora "top" -->
                 <img src="../../images/botão.png" alt="botão">
             </a>
         </figure>
     </main>
+
     <footer>
+        <!-- Rodapé da página. -->
+
         <script src="https://cdn.jsdelivr.net/npm/p5@1.11.5/lib/p5.js"></script>
+        <!-- Biblioteca p5.js diretamente da internet -->
+
         <script src="../../script.js"></script>
-         <p>&copy; 2025 João Amador | Todos os Direitos Reservados</p>
+        <!-- Liga um ficheiro JavaScript -->
+
+        <p>&copy; 2025 João Amador | Todos os Direitos Reservados</p>
+        <!-- Texto de direitos de autor com símbolo de copyright -->
     </footer>
 </body>
 </html>

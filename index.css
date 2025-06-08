@@ -1,72 +1,79 @@
-/*Estudante : João Amador [3240655] Professor : Marco Heleno | Exercício de Avaliação: 'Portfolio' 
- | Ano Letivo 3º, 2024-2025 | 2º Semestre | Laboratório de Projeto II | ESAD CR. | Data de Avaliação : 08/06/2025*/
+/* Estudante : João Amador [3240655] Professor : Marco Heleno | Exercício de Avaliação: 'Portfolio' 
+ | Ano Letivo 3º, 2024-2025 | 2º Semestre | Laboratório de Projeto II | ESAD CR. | Data de Avaliação : 08/06/2025 */
  
+/* Importação das fontes Inter e Montserrat da Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@400;500;600&display=swap');
 
+/* Reset básico: remove margens e preenchimentos padrão */
 * {
     margin: 0px;
     padding: 0px;
 }
 
+/* Estilo do corpo da página */
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif; /* Fonte principal: Inter */
     padding-top: 1%;
     padding-left: 2%;
     padding-right: 2%;
-    font-size: 23px;
+    font-size: 23px; /* Tamanho de letra ligeiramente aumentado */
 }
 
-header
-{
-    position: sticky;
+/* Estilo do cabeçalho */
+header {
+    position: sticky; /* Fixa o cabeçalho no topo ao fazer scroll */
     top: 0px;
     left: 0px;
-    display: flex;
+    display: flex; /* Layout flexível em linha */
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
+    justify-content: space-between; /* Espaço entre os elementos (ex: título e menu) */
+    align-items: center; /* Alinhamento vertical centrado */
+    background-color: white; /* Fundo branco para contraste com texto escuro */
 }
 
+/* Fonte Montserrat para títulos */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Título principal do cabeçalho */
 header h1 {
-    font-size: 2.5rem; /* Define a consistent font size globally */
-    font-weight: 600; /* Ensure bold text */
+    font-size: 2.5rem; /* Tamanho destacado */
+    font-weight: 600;  /* Negrito */
 }
 
+/* Estilo para parágrafos */
 p {
     font-size: 1.2em;
-    line-height: 1.5em;
+    line-height: 1.5em; 
 }
 
-nav a 
-{
-    margin-left: 10px;
+/* Espaçamento entre links de navegação */
+nav a {
+    margin-left: 10px; 
 }
 
-ul
-{
-    list-style: none; 
-    display: flex; 
+/* Estilo para listas */
+ul {
+    list-style: none; /* Sem marcadores */
+    display: flex; /* Alinhamento horizontal */
 }
 
-a
-{
-    text-decoration: none;
+/* Estilo dos links */
+a {
+    text-decoration: none; /* Sem sublinhado por padrão */
     font-size: 1em;
-    color: black;
+    color: black; 
 }
 
+/* Efeito ao passar o rato sobre os links */
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Sublinhado */
 }
 
+/* ---------- CATEGORIAS ---------- */
 
-/* Formatação secção das categorias */
-
+/* Estilo para a galeria de imagens */
 #gallery {
     margin-top: 2%;
     margin-bottom: 2%;
@@ -74,60 +81,67 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: nowrap;
-    column-gap: 2%;
+    flex-wrap: nowrap; /* Itens numa linha única  */
+    column-gap: 2%; /* Espaço horizontal entre as categorias */
 }
 
+/* Cada figura ocupa 32% da largura total */
 figure {
     width: 32%;
-    position: relative;
+    position: relative; /* Posicionmento do figcaption */
 }
 
+/* Imagens */
 figure img {
     width: 100%;
-    filter: brightness(0.8); /*Para as imagens da pagina home apenas*/
-
+    filter: brightness(0.8); 
 }
 
+/* Legenda da imagem */
 figcaption {
-    position: absolute;
+    position: absolute; /* Sobrepõe-se à imagem */
     left: 0px;
     top: 0px;
     width: 100%;
     height: 100%;
-    display: flex;
+    display: flex; /* Centraliza o texto */
     justify-content: center;
     align-items: center;
-    text-shadow: 1px 1px 5px black;
+    text-shadow: 1px 1px 5px black; 
     font-weight: 600;
-    color: white;
+    color: white; 
     font-size: 40px;
 }
 
+/* Secção "Sobre Mim" centrada */
 #about-me {
     text-align: center;
-
 }
 
+/* Títulos das secções */
 section h2 {
     margin-top: 20px;
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
+/* Estilo do botão de copiar e-mail */
 .copy-email-btn {
-  background: none;
-  color: black;
-  border: none;
-  font-size: 0.8em;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  padding: 6px 0 0 0; /* padding from above */
-  margin-left: 10px;
-  cursor: pointer;
+    background: none;
+    color: black;
+    border: none;
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 6px 0 0 0; 
+    margin-left: 10px; 
+    cursor: pointer; 
 }
 
+/* ---------- RODAPÉ ---------- */
+
+/* Estilo geral do rodapé */
 footer {
     position: absolute;
     bottom: 0px;
@@ -138,8 +152,9 @@ footer {
     font-size: 16px;
 }
 
+/* Texto do rodapé*/
 footer p {
-font-size: 15px;
-  text-align: right;
-  margin-right: 50px;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 50px; /* Espaço entre o texto e o canto direito */
 }

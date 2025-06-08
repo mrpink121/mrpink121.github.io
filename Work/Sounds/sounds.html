@@ -1,59 +1,90 @@
 <!-- Estudante : João Amador [3240655] Professor : Marco Heleno | Exercício de Avaliação: 'Portfolio' 
  | Ano Letivo 3º, 2024-2025 | 2º Semestre | Laboratório de Projeto II | ESAD CR. | Data de Avaliação : 08/06/2025-->
- 
+
 <!DOCTYPE html>
+<!-- Tipo de documento -->
+
 <html lang="en">
+<!-- Idioma principal da página -->
+
 <head>
     <meta charset="UTF-8">
+    <!-- Codificação de caracteres -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Escala inicial para responsividade -->
+
     <title>João Amador's Portfolio</title>
+    <!-- Título da página -->
+
     <link rel="stylesheet" href="../../styles.css">
+    <!-- Liga ficheiro CSS -->
 </head>
+
 <body>
     <header>
+        <!-- Cabeçalho da página. -->
         <h1>
             <a href="../../index.html">João Amador's Portfolio</a>
+            <!-- Link para página inicial -->
         </h1>
+
         <div id="email_container" onmouseover="showEmailButton()" onmouseout="hideEmailButton()">
+            <!-- JavaScript ao passar o rato por cima -->
+
             <a id="email" class="styled-email" href="mailto:amador.joao@outlook.com">amador.joao@outlook.com</a>
+            <!-- Link de email -->
         </div>
     </header>
+
     <main id="top">
-        
-    <figcaption>Ambiente</figcaption>
-    <audio controls>
-        <source src="../../soundsstorage/ambiente.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>     
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <figcaption>Ambiente2</figcaption>
-    <audio controls>
-        <source src="../../soundsstorage/ambiente2.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>   
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-     <br>
-    <br>
-    <figcaption>Ambiente3</figcaption>
-    <audio controls>
-        <source src="../../soundsstorage/ambiente3.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>   
+            <!-- Conteúdo principal da página. O id "top" é utilizado como âncora para o botão de voltar ao topo -->
+
+        <figcaption>Ambientes</figcaption>
+        <!--Título para o primeiro ficheiro de som -->
+
+        <audio controls>
+            <!-- Elemento de áudio com controlos -->
+
+            <source src="../../soundsstorage/ambiente.mp3" type="audio/mpeg">
+            <!-- Ficheiro de som em formato MP3 -->
+
+            Your browser does not support the audio element.
+            <!-- Texto alternativo -->
+        </audio>     
+
+        <!-- Espaçamento entre os elementos -->
+        <br><br><br><br><br><br><br>
+
+        <figcaption class="ambienteblack">Ambiente2</figcaption>
+        <!-- Espaçamento entre os elementos através da figcaption que define a posição do player -->
+
+        <audio controls>
+            <source src="../../soundsstorage/ambiente2.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>   
+
+        <br><br><br><br><br><br><br>
+
+        <figcaption class="ambienteblack">Ambiente3</figcaption>
+
+        <audio controls>
+            <source src="../../soundsstorage/ambiente3.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>   
     </main>
+    <br>
     <footer>
+        <!-- Rodapé da página. -->
+
         <script src="https://cdn.jsdelivr.net/npm/p5@1.11.5/lib/p5.js"></script>
+        <!-- Biblioteca p5.js diretamente da internet -->
+
         <script src="../../script.js"></script>
-         <p>&copy; 2025 João Amador | Todos os Direitos Reservados</p>
+        <!-- Liga um ficheiro JavaScript -->
+
+        <p>&copy; 2025 João Amador | Todos os Direitos Reservados</p>
+        <!-- Texto de direitos de autor com símbolo de copyright -->
     </footer>
 </body>
 </html>

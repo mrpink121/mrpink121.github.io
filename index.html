@@ -1,44 +1,75 @@
 <!-- Estudante : João Amador [3240655] Professor : Marco Heleno | Exercício de Avaliação: 'Portfolio' 
  | Ano Letivo 3º, 2024-2025 | 2º Semestre | Laboratório de Projeto II | ESAD CR. | Data de Avaliação : 08/06/2025-->
- 
+
 <!DOCTYPE html>
+<!-- Tipo de documento -->
+
 <html lang="en">
+<!-- Idioma principal da página -->
+
 <head>
   <meta charset="UTF-8" />
+    <!-- Codificação de caracteres -->
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Escala inicial para responsividade -->
+
   <title>João Amador's Portfolio</title>
+    <!-- Título da página -->
+
   <link rel="stylesheet" href="index.css" />
+    <!-- Liga ficheiro CSS -->
 </head>
+
 <body>
   <header>
+        <!-- Cabeçalho da página. -->
+
     <h1>
       <a id="home_link" href="index.html">João Amador's Portfolio</a>
+            <!-- Link para página inicial -->
     </h1>
+
     <div id="email_container" onmouseover="showEmailButton()" onmouseout="hideEmailButton()">
+            <!-- JavaScript ao passar o rato por cima -->
+
       <a id="email" href="mailto:amador.joao@outlook.com">amador.joao@outlook.com</a>
+            <!-- Link de email -->
     </div>
   </header>
 
   <main>
+    <!-- Secção principal do conteúdo da página -->
+
     <section id="gallery">
+      <!-- Secção da galeria de categorias de trabalho -->
+
       <figure>
         <a href="Work/Photographs/photographs.html">
+          <!-- Link para a página dos trabalhos de fotografia -->
+
           <img src="images/Photographs/Magnolia-grandiflora3.png" alt="Nature Photographs" />
+          <!-- Imagem da categoria -->
+
           <figcaption>Nature Photographs</figcaption>
+          <!-- Legenda com descrição da imagem -->
         </a>
       </figure>
+
       <figure>
         <a href="Work/Digital Paintings/digitalpaintings.html">
           <img src="images/DigitalPaintings/digital-categoria.png" alt="Digital Paintings" />
           <figcaption>Digital Paintings</figcaption>
         </a>
       </figure>
+
       <figure>
         <a href="Work/MobileApp/mobileapp.html">
           <img src="images/MobileApp/mobile-categoria.png" alt="Mobile App" />
           <figcaption>Mobile App</figcaption>
         </a>
       </figure>
+
       <figure>
         <a href="Work/Sounds/sounds.html">
           <img src="images/Sounds/souunds.jpg" alt="Sounds" />
@@ -48,28 +79,43 @@
     </section>
 
     <section id="about-me">
+      <!-- Secção "Sobre mim" -->
+
       <h2>About me</h2>
+      <!-- Título da secção -->
+
       <p>
         Graphic Design Student learning and exploring Photography, Digital Illustration and UX/IU Design.<br>
         I have experience working with Photoshop, Illustrator and Figma. <br>
         Currently honing my skills in Web Development (front end) with HTML, CSS and JavaScript.<br>
       </p>
-      <br>
-      <br>
+      <!-- Parágrafo com quebras de linha para dividir visualmente o texto -->
+
+      <br><br>
+      <!-- Espaço adicional entre os parágrafos -->
+
       <p>
-       Downoald my curriculum to learn more.
+        Downoald my curriculum to learn more.
       </p>
+
       <br>
+
       <a href="curriculo/curriculo.pdf" target="_blank">Downoald Curriculum</a>
-
-
+      <!-- Link para o ficheiro PDF do currículo que abre num novo separador -->
     </section>
   </main>
 
   <footer>
+    <!-- Rodapé da página -->
+
     <script src="https://cdn.jsdelivr.net/npm/p5@1.11.5/lib/p5.js"></script>
+        <!-- Biblioteca p5.js diretamente da internet -->
+
     <script src="script.js"></script>
+        <!-- Liga um ficheiro JavaScript -->
+
     <p>&copy; 2025 João Amador | Todos os Direitos Reservados</p>
+        <!-- Texto de direitos de autor com símbolo de copyright -->
   </footer>
 </body>
 </html>
