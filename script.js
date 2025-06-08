@@ -1,5 +1,5 @@
 //Estudante : João Amador [3240655] Professor : Marco Heleno | Exercício de Avaliação: Portfolio 
-// Ano Letivo 3º, 2024-2025 | 2º Semestre | Laboratório de Projeto II | ESAD CR. | Data de Avaliação : 08/06/2025
+// Ano Letivo 3º, 2024-2025 | 2º Semestre | Laboratório de Projeto II | ESAD CR. | Data de Avaliação : 09/06/2025
 
 // Declaração de variáveis
 let email_container_element, email_a_element, email_button_element;
