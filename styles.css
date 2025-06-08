@@ -123,6 +123,19 @@ audio {
   margin-right: auto;
 }
 
+.copy-email-btn {
+  background: none;
+  color: #ffffff;
+  border: none;
+  font-size: 0.8em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 6px 0 0 0; /* padding from above */
+  margin-left: 10px;
+  cursor: pointer;
+}
+
 footer {
     text-align: center;
     padding: 10px;
